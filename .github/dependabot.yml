@@ -4,7 +4,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "1:36"
+      time: "01:39"
       timezone: "Asia/Kolkata"
     groups:
       dev-dependencies:
