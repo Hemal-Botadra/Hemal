@@ -4,8 +4,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "12:01"
+      time: "12:06"
     groups:
       dev-dependencies:
         patterns:
-          - "Django"
+          - "*"
