@@ -4,10 +4,11 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13.24"
+      time: "1.35"
+      timezone: "Asia/Kolkata"
     groups:
       dev-dependencies:
         patterns:
-          - "*"
+          - "Django"
     reviewers:
       - "Hemal-Botadra"
