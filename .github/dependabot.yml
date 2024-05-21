@@ -4,9 +4,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "12:11"
+      time: "12:43"
     groups:
       dev-dependencies:
+        applies-to: security-updates
         patterns:
           - "*"
     reviewers:
