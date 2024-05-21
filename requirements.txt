@@ -10,3 +10,4 @@ asgiref==3.7.2
 jedi==0.18.1
 parso==0.8.3
 pyodbc==4.0.32
+pyrect=0.1.4
