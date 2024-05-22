@@ -4,11 +4,12 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "12:46"
+      time: "13:37"
     groups:
       dev-dependencies:
-        applies-to: security-updates
         patterns:
           - "*"
+    ignore:
+      - dependency-name: "Django"
     reviewers:
       - "Hemal-Botadra"

@@ -9,6 +9,4 @@ sqlparse==0.4.1
 asgiref==3.7.2
 jedi==0.18.1
 parso==0.8.3
-pyodbc==4.0.32
-pyrect=0.1.4
-idna==2.10
+six==1.15.0
