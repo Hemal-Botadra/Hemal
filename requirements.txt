@@ -50,7 +50,7 @@ PyTweening==1.0.3
 pytz==2020.5
 pywhatkit==3.9
 requests==2.24.0
-six==1.15.0
+six==1.16.0
 soupsieve==2.2
 sqlparse==0.4.1
 stack-data==0.2.0
