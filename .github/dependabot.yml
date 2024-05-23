@@ -4,11 +4,13 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "14:20"
+      time: "11:58"
     groups:
       dev-dependencies:
-        applies-to: security-updates
         patterns:
-          - "*"
+          - "Django"
+          - "click"
+          - "idna"
+          - "numpy"
     reviewers:
       - "Hemal-Botadra"
