@@ -3,11 +3,5 @@ asttokens==2.4.1
 certifi==2020.6.20
 click==7.1.2
 Django==4.2.4
-django-crispy-forms==2.1
-django-mssql-backend==2.8.1
-gTTS==2.5.1
-idna==2.10
-ipdb==0.13.9
-jedi==0.18.1
 Pillow==8.0.1
 protobuf==3.15.3
