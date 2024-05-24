@@ -9,7 +9,6 @@ django-mssql-backend==2.8.1
 gTTS==2.2.2
 idna==2.10
 ipdb==0.13.9
-ipython==8.2.0
 jedi==0.18.1
 Pillow==8.0.1
 protobuf==3.15.3
