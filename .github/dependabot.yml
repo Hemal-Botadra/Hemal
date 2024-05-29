@@ -4,7 +4,7 @@ updates:
     directory: "requirements.txt"
     schedule:
       interval: "daily"
-      time: "14:40"
+      time: "14:42"
     ignore:
       - dependency-name: '*'
     groups:
@@ -12,8 +12,8 @@ updates:
         applies-to: security-updates
         patterns:
           - "*"
-      reviewers:
-        - "Hemal-Botadra"
+    reviewers:
+      - "Hemal-Botadra"
 
 #  - package-ecosystem: "pip" # See documentation for possible values
 #    directory: "/" # Location of package manifests
