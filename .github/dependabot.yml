@@ -4,9 +4,15 @@ updates:
     directory: "requirements.txt"
     schedule:
       interval: "daily"
-      time: "14:42"
+      time: "14:44"
     ignore:
       - dependency-name: '*'
+
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+      time: "14:44"
     groups:
       dev-dependencies:
         applies-to: security-updates
@@ -14,16 +20,3 @@ updates:
           - "*"
     reviewers:
       - "Hemal-Botadra"
-
-#  - package-ecosystem: "pip" # See documentation for possible values
-#    directory: "/" # Location of package manifests
-#    schedule:
-#      interval: "daily"
-#      time: "14:01"
-#    groups:
-#      dev-dependencies:
-#        applies-to: security-updates
-#        patterns:
-#          - "*"
-#    reviewers:
-#      - "Hemal-Botadra"
