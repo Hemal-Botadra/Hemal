@@ -4,7 +4,7 @@ updates:
     directory: "requirements.txt"
     schedule:
       interval: "daily"
-      time: "13:37"
+      time: "13:45"
     ignore:
       - dependency-name: '*'
 
@@ -12,7 +12,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:37"
+      time: "13:45"
     groups:
       dev-dependencies:
         applies-to: security-updates
