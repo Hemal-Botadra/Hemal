@@ -4,8 +4,9 @@ updates:
     directory: "requirements.txt"
     schedule:
       interval: "daily"
-      time: "13:04"
-    ignore: "*"
+      time: "13:16"
+    ignore:
+      - dependency-name: '*'
 
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
