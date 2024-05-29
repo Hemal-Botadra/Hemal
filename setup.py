@@ -1,0 +1,21 @@
+from setuptools import setup
+
+install_requires = [
+    "ddtrace",
+    "grpcio",
+    "programmatic_commons",
+    "protobuf",
+    "pxproto",
+    "python-json-logger",
+    "redis[hiredis]<4.4",
+    "uvloop",
+]
+
+setup(
+    name='my-package',
+    version=f'1.2.3',
+    description='This is an awesome Python package',
+    author='Hemal',
+    install_requires=install_requires,
+    license='MIT',
+)
