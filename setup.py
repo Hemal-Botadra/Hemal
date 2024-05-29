@@ -3,7 +3,6 @@ from setuptools import setup
 install_requires = [
     "ddtrace",
     "grpcio",
-    "programmatic_commons",
     "protobuf",
     "pxproto",
     "python-json-logger",
