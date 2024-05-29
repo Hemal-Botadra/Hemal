@@ -8,7 +8,6 @@ install_requires = [
     "python-json-logger",
     "redis[hiredis]<4.4",
     "uvloop",
-    "pillow",
 ]
 
 setup(
