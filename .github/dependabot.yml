@@ -1,18 +1,11 @@
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "requirements.txt"
-    schedule:
-      interval: "daily"
-      time: "14:44"
-    ignore:
-      - dependency-name: '*'
-
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "14:44"
+      time: "11:33"
+    open-pull-requests-limit: 7
     groups:
       dev-dependencies:
         applies-to: security-updates
