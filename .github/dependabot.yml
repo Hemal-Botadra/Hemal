@@ -4,11 +4,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:51"
+      time: "15:27"
     open-pull-requests-limit: 7
-    allow:
-      # Allow only direct updates for
-      # Django and any packages starting "django"
-      - dependency-name: "all"
     reviewers:
       - "Hemal-Botadra"
