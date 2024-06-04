@@ -4,7 +4,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "11:33"
+      time: "12:29"
     open-pull-requests-limit: 7
     groups:
       dev-dependencies:
