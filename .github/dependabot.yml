@@ -4,12 +4,13 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "12:29"
+      time: "12:59"
     open-pull-requests-limit: 7
     groups:
       dev-dependencies:
         applies-to: security-updates
-        patterns:
-          - "*"
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
     reviewers:
       - "Hemal-Botadra"
