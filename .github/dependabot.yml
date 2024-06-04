@@ -9,8 +9,6 @@ updates:
     groups:
       dev-dependencies:
         applies-to: security-updates
-        patterns:
-          - "*"
         update-types:
           - "patch"
     allow:
