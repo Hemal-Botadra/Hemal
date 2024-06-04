@@ -4,7 +4,7 @@ install_requires = [
     "ddtrace",
     "grpcio",
     "protobuf",
-    "asttokens==2.0.5",
+    "asttokens==2.4.1",
     "pxproto",
     "python-json-logger",
     "redis[hiredis]<4.4",
