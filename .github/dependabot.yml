@@ -4,9 +4,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "15:03"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-minor"]
+      time: "16:10"
+    security_updates_only: true
     reviewers:
       - "Hemal-Botadra"
