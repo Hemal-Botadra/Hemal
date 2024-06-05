@@ -4,7 +4,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "18:28"
-    open-pull-requests-limit: 7
+      time: "11:49"
     reviewers:
       - "Hemal-Botadra"
