@@ -4,9 +4,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:34"
-    ignore:
-      # For all packages, ignore all patch updates
-      - dependency-name: "*"
+      time: "13:37"
     reviewers:
       - "Hemal-Botadra"
