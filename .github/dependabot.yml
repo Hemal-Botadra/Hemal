@@ -4,7 +4,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:08"
-    open-pull-requests-limit: 0
+      time: "13:23"
+    ignore:
+      # For all packages, ignore all patch updates
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
     reviewers:
       - "Hemal-Botadra"
