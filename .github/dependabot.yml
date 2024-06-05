@@ -4,10 +4,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "14:02"
-    open-pull-requests-limit: 0
+      time: "15:03"
     ignore:
-      # For all packages, ignore all patch updates
-      - dependency-name: "redis[hiredis]"
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor"]
     reviewers:
       - "Hemal-Botadra"
