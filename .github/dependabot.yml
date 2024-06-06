@@ -4,14 +4,15 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:16"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      time: "14:35"
     groups:
       dev-dependencies:
         applies-to: security-updates
         patterns:
+          - "*"
+      dev-prod-dependencies:
+        applies-to: version-updates
+        exclude-patterns:
           - "*"
     reviewers:
       - "Hemal-Botadra"
