@@ -4,8 +4,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "12:38"
-    open-pull-requests-limit: 0
+      time: "12:44"
     groups:
       dev-dependencies:
         applies-to: security-updates
@@ -13,3 +12,12 @@ updates:
           - "*"
     reviewers:
       - "Hemal-Botadra"
+
+  - package-ecosystem: "pip" # See documentation for possible values
+      directory: "/" # Location of package manifests
+      schedule:
+        interval: "daily"
+        time: "12:44"
+      open-pull-requests-limit: 0
+      reviewers:
+        - "Hemal-Botadra"
